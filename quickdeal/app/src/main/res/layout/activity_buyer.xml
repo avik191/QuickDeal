@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_seller"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hi.quickdeal.Seller">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="REGISTER AS BUYER"
+            android:textColor="#000001"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="______________________"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:background="#F6F7F8"
+            style="@style/exittextstyle"
+            android:drawableLeft="@drawable/ic_email"
+            android:drawableTint="#888790"
+            android:drawablePadding="20dp"
+            android:layout_marginTop="12dp"
+            android:hint="Full Name"
+            />
+
+        <EditText
+            android:background="#F6F7F8"
+            style="@style/exittextstyle"
+            android:drawableLeft="@drawable/ic_emailaddress"
+            android:drawableTint="#888790"
+            android:drawablePadding="20dp"
+            android:layout_marginTop="2dp"
+            android:hint="Email address"
+            />
+
+        <EditText
+            android:background="#F6F7F8"
+            style="@style/exittextstyle"
+            android:drawableLeft="@drawable/ic_pass"
+            android:drawableTint="#888790"
+            android:drawablePadding="20dp"
+            android:layout_marginTop="2dp"
+            android:inputType="textPassword"
+            android:hint="Create Password"
+            />
+
+        <EditText
+            android:background="#F6F7F8"
+            style="@style/exittextstyle"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/ic_pass"
+            android:drawableTint="#888790"
+            android:drawablePadding="20dp"
+            android:layout_marginTop="2dp"
+            android:hint="Confirm Password"
+            />
+
+        <EditText
+            android:background="#F6F7F8"
+            style="@style/exittextstyle"
+            android:drawableLeft="@drawable/ic_location"
+            android:drawableTint="#888790"
+            android:drawablePadding="20dp"
+            android:layout_marginTop="2dp"
+            android:hint="Your City"
+            />
+
+        <EditText
+            android:background="#F6F7F8"
+            style="@style/exittextstyle"
+            android:drawableLeft="@drawable/ic_phone"
+            android:drawableTint="#888790"
+            android:drawablePadding="20dp"
+            android:layout_marginTop="2dp"
+            android:hint="Phone number"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You will receive OTP code on this number"
+            android:textColor="#000"
+            android:textSize="13sp"
+            android:layout_marginRight="30dp"
+            android:layout_gravity="right"/>
+
+        <Button
+            android:layout_width="match_parent"
+            style="@style/roundedloginbutton"
+            android:layout_height="45dp"
+            android:layout_marginRight="30dp"
+            android:text="REGISTER NOW"
+            android:textStyle="bold"
+            android:textSize="21sp"
+            android:textColor="#fff"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="12dp"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Already have an account?"
+                android:textColor="#000001"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sign in now"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

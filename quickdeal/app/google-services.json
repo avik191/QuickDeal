@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "376466837468",
+    "project_id": "quickdeal-165612"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:376466837468:android:bbb9003a970ba8de",
+        "android_client_info": {
+          "package_name": "com.example.hi.quickdeal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "376466837468-8e7kg036pi3rs15ua5dv693rh129h2cp.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "376466837468-4g2plrgkvnvt8v8riqdkvugj6mfbh34p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hi.quickdeal",
+            "certificate_hash": "38dd957f09577300b5975a51f5a473c2cc008a46"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoplLKgGGhTiH1-TYUSLfcG-axvRAZ7Bw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
